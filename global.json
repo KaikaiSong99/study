@@ -25,6 +25,9 @@
     "basic-questionnaire-study": {
       "path": "basic-questionnaire-study/config.json"
     },
+    "trajectory-vis-study-test" : {
+      "path": "trajectory-vis-study-test/config.json"
+    },
     "tutorial-simple-study": {
       "path": "tutorial/simple-study/config.json"
     },
