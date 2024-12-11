@@ -91,193 +91,1163 @@
       "path": "trajectory-vis-study-test/assets/background.md",
       "response": []
     },
-    "first-question-set": {
-      "type": "questionnaire",
-      "response": [
-        {
-          "id": "q1-name",
-          "prompt": "What is your first name?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "longText",
-          "placeholder": "Please enter your first name"
-        },
-        {
-          "id": "q2-color",
-          "prompt": "What is your favorite color?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "dropdown",
-          "placeholder": "Please choose your favorite color",
-          "options": ["Red", "Blue", "My favorite color is not shown here."]
-        }
-      ]
-    },
     "stimulus_1": {
       "type": "image",
-      "path": "trajectory-vis-study-test/assets/image1.png",
+      "path": "trajectory-vis-study-test/assets/questions/q1.png",
       "nextButtonLocation": "sidebar",
-      "instruction": "Consider the following statement: The red cluster and the orange cluster are placed at the center of the embedding starting from an early phase.",
+      "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
         {
-          "id": "confidence",
+          "id": "q1",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the following 3 classes split first from the rest of the classes?",
+          "location": "sidebar",
+          "options": [
+            "Yellow",
+            "Green",
+            "Blue"
+          ]
+        },
+        {
+          "id": "q1_confidence",
           "type": "likert",
           "required": true,
-          "prompt": "How confident are you on the statement being true?",
+          "prompt": "I am confident in my answer",
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 5
+          "numItems": 7
         },
         {
-          "id": "easiness",
+          "id": "q1_easiness",
           "type": "likert",
           "required": true,
-          "prompt": "How easy was it for you to answer this question?",
+          "prompt": "It was easy to identify the answer",
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 5
+          "numItems": 7
         }
       ]
     },
     "stimulus_2": {
       "type": "image",
-      "path": "trajectory-vis-study-test/assets/image2.png",
+      "path": "trajectory-vis-study-test/assets/questions/q2.png",
       "nextButtonLocation": "sidebar",
-      "instruction": "Consider the following statement: The red cluster and the orange cluster are placed at the center of the embedding starting from an early phase.",
+      "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
         {
-          "id": "confidence",
+          "id": "q2",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the following 3 classes split first from the rest of the classes?",
+          "location": "sidebar",
+          "options": [
+            "Yellow",
+            "Green",
+            "Blue"
+          ]
+        },
+        {
+          "id": "q2_confidence",
           "type": "likert",
           "required": true,
-          "prompt": "How confident are you on the statement being true?",
+          "prompt": "I am confident in my answer",
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 5
+          "numItems": 7
         },
         {
-          "id": "easiness",
+          "id": "q2_easiness",
           "type": "likert",
           "required": true,
-          "prompt": "How easy was it for you to answer this question?",
+          "prompt": "It was easy to identify the answer",
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 5
+          "numItems": 7
         }
       ]
     },
     "stimulus_3": {
       "type": "image",
-      "path": "trajectory-vis-study-test/assets/image3.png",
+      "path": "trajectory-vis-study-test/assets/questions/Q3.gif",
       "nextButtonLocation": "sidebar",
-      "instruction": "Consider the following statement: The red cluster and the orange cluster are placed at the center of the embedding starting from an early phase.",
+      "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
         {
-          "id": "confidence",
+          "id": "q3",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the following 3 classes split first from the rest of the classes?",
+          "location": "sidebar",
+          "options": [
+            "Yellow",
+            "Green",
+            "Blue"
+          ]
+        },
+        {
+          "id": "q3_confidence",
           "type": "likert",
           "required": true,
-          "prompt": "How confident are you on the statement being true?",
+          "prompt": "I am confident in my answer",
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 5
+          "numItems": 7
         },
         {
-          "id": "easiness",
+          "id": "q3_easiness",
           "type": "likert",
           "required": true,
-          "prompt": "How easy was it for you to answer this question?",
+          "prompt": "It was easy to identify the answer",
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 5
+          "numItems": 7
         }
       ]
     },
     "stimulus_4": {
       "type": "image",
-      "path": "trajectory-vis-study-test/assets/image4.png",
+      "path": "trajectory-vis-study-test/assets/questions/q4.png",
       "nextButtonLocation": "sidebar",
-      "instruction": "Consider the following statement: The dark navy blue cluster does not share trajectories with the red cluster until the mid phase.",
+      "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
         {
-          "id": "confidence",
+          "id": "q4",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which of the following behaviour can you identify within the blue trajectories?",
+          "location": "sidebar",
+          "options": [
+            "They are all generally very similar and only split into smaller subgroups once the main blue group is settled",
+            "They seem to be at least two major groups that split early in the optimization",
+            "They seem to be at least two major groups that only split late in the optimization"
+          ]
+        },
+        {
+          "id": "q4_confidence",
           "type": "likert",
           "required": true,
-          "prompt": "How confident are you on the statement being true?",
+          "prompt": "I am confident in my answer",
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 5
+          "numItems": 7
         },
         {
-          "id": "easiness",
+          "id": "q4_easiness",
           "type": "likert",
           "required": true,
-          "prompt": "How easy was it for you to answer this question?",
+          "prompt": "It was easy to identify the answer",
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 5
+          "numItems": 7
         }
       ]
     },
     "stimulus_5": {
       "type": "image",
-      "path": "trajectory-vis-study-test/assets/image5.png",
+      "path": "trajectory-vis-study-test/assets/questions/q5.png",
       "nextButtonLocation": "sidebar",
-      "instruction": "Consider the following statement: The dark navy blue cluster does not share trajectories with the red cluster until the mid phase.",
+      "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
         {
-          "id": "confidence",
+          "id": "q5",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which of the following behaviour can you identify within the green trajectories?",
+          "location": "sidebar",
+          "options": [
+            "They are all generally very similar and only split into smaller subgroups once the main green group is settled",
+            "They seem to be at least two major groups that split early in the optimization",
+            "They seem to be at least two major groups that only split late in the optimization"
+          ]
+        },
+        {
+          "id": "q5_confidence",
           "type": "likert",
           "required": true,
-          "prompt": "How confident are you on the statement being true?",
+          "prompt": "I am confident in my answer",
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 5
+          "numItems": 7
         },
         {
-          "id": "easiness",
+          "id": "q5_easiness",
           "type": "likert",
           "required": true,
-          "prompt": "How easy was it for you to answer this question?",
+          "prompt": "It was easy to identify the answer",
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 5
+          "numItems": 7
         }
       ]
     },
     "stimulus_6": {
       "type": "image",
-      "path": "trajectory-vis-study-test/assets/image6.png",
+      "path": "trajectory-vis-study-test/assets/questions/Q6.gif",
       "nextButtonLocation": "sidebar",
-      "instruction": "Consider the following statement: The dark navy blue cluster does not share trajectories with the red cluster until the mid phase.",
+      "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
         {
-          "id": "confidence",
+          "id": "q6",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which of the following behaviour can you identify within the pink trajectories?",
+          "location": "sidebar",
+          "options": [
+            "They are all generally very similar and only split into smaller subgroups once the main pink group is settled",
+            "They seem to be at least two major groups that split early in the optimization",
+            "They seem to be at least two major groups that only split late in the optimization"
+          ]
+        },
+        {
+          "id": "q6_confidence",
           "type": "likert",
           "required": true,
-          "prompt": "How confident are you on the statement being true?",
+          "prompt": "I am confident in my answer",
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 5
+          "numItems": 7
         },
         {
-          "id": "easiness",
+          "id": "q5_easiness",
           "type": "likert",
           "required": true,
-          "prompt": "How easy was it for you to answer this question?",
+          "prompt": "It was easy to identify the answer",
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 5
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_7": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q7.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q7",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the two matches your observation better?",
+          "location": "sidebar",
+          "options": [
+            "The blue group separates into 2 subgroups and and at least one of the subgroups shares trajectories with the red group",
+            "The blue group and the red group separate in the first half of the optimization and then move in separate ways while staying relatively close"
+          ]
+        },
+        {
+          "id": "q7_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q7_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_8": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q8.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q8",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the two matches your observation better?",
+          "location": "sidebar",
+          "options": [
+            "The blue group separates into 2 subgroups and at least one of the subgroups shares trajectories with the orange group",
+            "The blue group and the orange group separate in the first half of the optimization and then move in separate ways while staying relatively close"
+          ]
+        },
+        {
+          "id": "q8_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q8_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_9": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/Q9.gif",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q9",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the two matches your observation better?",
+          "location": "sidebar",
+          "options": [
+            "The yellow group separates into 2 subgroups and at least one of the subgroups shares trajectories with the blue group",
+            "The yellow group and the blue group separate in the first half of the optimization and then move in separate ways while staying relatively close"
+          ]
+        },
+        {
+          "id": "q9_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q9_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_10": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q10.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q10",
+          "type": "radio",
+          "required": true,
+          "prompt": "Through the trajectories, can you identify that the yellow group connects the green group and the blue group during most of the time during the optimization?",
+          "location": "sidebar",
+          "options": [
+            "Yes",
+            "No, but I can identify three visible groups",
+            "At least one of the groups is difficult to identify"
+          ]
+        },
+        {
+          "id": "q10_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q10_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_11": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q11.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q11",
+          "type": "radio",
+          "required": true,
+          "prompt": "Through the trajectories, can you identify that the green group connects the yellow group and the blue group most of the time during the optimization?",
+          "location": "sidebar",
+          "options": [
+            "Yes",
+            "No, but I can identify three visible groups",
+            "At least one of the groups is difficult to identify"
+          ]
+        },
+        {
+          "id": "q11_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q11_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_12": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q12.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q12",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which of the following behaviour can you identify among the three groups, assuming there are 2 phases (earlier, later) that equally divide the optimization?",
+          "location": "sidebar",
+          "options": [
+            "They share trajectories before they split at the earlier phase and in the end, the majority of the orange group is more related to the blue group than the red group",
+            "They share trajectories before they split at the later phase and in the end, the majority of the orange group is more related to the blue group than the red group",
+            "They share trajectories before they split at the earlier phase and in the end, the majority of the orange group is more related to the red group than the blue group",
+            "They share trajectories before they split at the later phase and in the end, the majority of the orange group is more related to the red group than the blue group"
+          ]
+        },
+        {
+          "id": "q12_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q12_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_13": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q13.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q13",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which of the following behaviour can you identify among the three groups, assuming there are 2 phases (earlier, later) that equally divide the optimization?",
+          "location": "sidebar",
+          "options": [
+            "They share trajectories before they split at the earlier phase and in the end, the majority of the pink group is more related to the blue group than the orange group",
+            "They share trajectories before they split at the later phase and in the end, the majority of the pink group is more related to the blue group than the orange group",
+            "They share trajectories before they split at the earlier phase and in the end, the majority of the pink group is more related to the orange group than the blue group",
+            "They share trajectories before they split at the later phase and in the end, the majority of the pink group is more related to the orange group than the blue group"
+          ]
+        },
+        {
+          "id": "q13_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q13_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_14": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/Q14.gif",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q14",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which of the following behaviour can you identify among the three groups, assuming there are 2 phases (earlier, later) that equally divide all iterations",
+          "location": "sidebar",
+          "options": [
+            "They share trajectories before they split at the earlier phase and in the end, the the majority of the orange group is closer to the blue group than the magenta group",
+            "They share trajectories before they split at the later phase and in the end, the majority of the orange group is closer to the blue group than the magenta group",
+            "They share trajectories before they split at the earlier phase and in the end, the majority of the orange group is closer to the magenta group than the blue group",
+            "They share trajectories before they split at the later phase and in the end, the majority of the orange group is closer to the magenta group than the blue group"
+          ]
+        },
+        {
+          "id": "q14_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q14_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_15": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q15.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q15",
+          "type": "radio",
+          "required": true,
+          "prompt": "The green group",
+          "location": "sidebar",
+          "options": [
+            "connects to blue through the yellow",
+            "connects to blue directly",
+            "does not connect to blue at all"
+          ]
+        },
+        {
+          "id": "q15_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q15_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_16": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q16.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q16",
+          "type": "radio",
+          "required": true,
+          "prompt": "The pink group",
+          "location": "sidebar",
+          "options": [
+            "connects to the orange through blue",
+            "connects to the orange directly",
+            "does not connect to the orange at all"
+          ]
+        },
+        {
+          "id": "q16_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q16_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_17": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/Q17.gif",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q17",
+          "type": "radio",
+          "required": true,
+          "prompt": "The blue group",
+          "location": "sidebar",
+          "options": [
+            "connects to yellow through red",
+            "connects to yellow directly",
+            "does not connect to yellow at all"
+          ]
+        },
+        {
+          "id": "q17_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q17_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_18": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q18.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q18",
+          "type": "radio",
+          "required": true,
+          "prompt": "How many subgroups within the red group can you identify?",
+          "location": "sidebar",
+          "options": [
+            "1",
+            "2",
+            "3 or more"
+          ]
+        },
+        {
+          "id": "q18_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q18_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_19": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q19.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q19",
+          "type": "radio",
+          "required": true,
+          "prompt": "How many subgroups within the green group can you identify?",
+          "location": "sidebar",
+          "options": [
+            "1",
+            "2",
+            "3 or more"
+          ]
+        },
+        {
+          "id": "q19_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q19_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_20": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q20.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q20",
+          "type": "radio",
+          "required": true,
+          "prompt": "How many subgroups within the blue group can you identify?",
+          "location": "sidebar",
+          "options": [
+            "3 or less",
+            "4",
+            "5 or more"
+          ]
+        },
+        {
+          "id": "q20_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q20_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_21": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q21.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q21",
+          "type": "radio",
+          "required": true,
+          "prompt": "How many subgroups within the purple group can you identify?",
+          "location": "sidebar",
+          "options": [
+            "3 or less",
+            "4",
+            "5 or more"
+          ]
+        },
+        {
+          "id": "q21_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q21_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_22": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q22.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q22",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the following three classes splits first?",
+          "location": "sidebar",
+          "options": [
+            "Orange",
+            "Red",
+            "Blue"
+          ]
+        },
+        {
+          "id": "q22_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q22_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_23": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q23.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q23",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the following three classes splits first?",
+          "location": "sidebar",
+          "options": [
+            "Orange",
+            "Red",
+            "Blue"
+          ]
+        },
+        {
+          "id": "q23_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q23_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_24": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/Q24.gif",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q24",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the following three classes splits first?",
+          "location": "sidebar",
+          "options": [
+            "Orange",
+            "Red",
+            "Blue"
+          ]
+        },
+        {
+          "id": "q24_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q24_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_25": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q25.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q25",
+          "type": "radio",
+          "required": true,
+          "prompt": "What can you identify from the green group?",
+          "location": "sidebar",
+          "options": [
+            "There is one main subgroup over the iterations",
+            "There are mainly two clear-defined subgroups",
+            "There are at least three clear-defined subgroups"
+          ]
+        },
+        {
+          "id": "q25_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q25_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_26": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q26.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q26",
+          "type": "radio",
+          "required": true,
+          "prompt": "What can you identify from the blue group?",
+          "location": "sidebar",
+          "options": [
+            "There is one main subgroup over the iterations",
+            "There are mainly two clear-defined subgroups",
+            "There are at least three clear-defined subgroups"
+          ]
+        },
+        {
+          "id": "q26_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q26_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_27": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q27.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q27",
+          "type": "radio",
+          "required": true,
+          "prompt": "How do you interpret the relationship between the red and the yellow group over the iterations?",
+          "location": "sidebar",
+          "options": [
+            "They seem to be closer related compared to many other groups but still distinct",
+            "They are very closely related and not well separable",
+            "They are fairly distinct in most phases, similar to most other groups"
+          ]
+        },
+        {
+          "id": "q27_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q27_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_28": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q28.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q28",
+          "type": "radio",
+          "required": true,
+          "prompt": "How do you interpret the relationship between the blue and the pink group over the iterations?",
+          "location": "sidebar",
+          "options": [
+            "They seem to be closer related compared to many other groups but still distinct",
+            "They are very closely related and not well separable",
+            "They are fairly distinct in most phases, similar to most other groups"
+          ]
+        },
+        {
+          "id": "q28_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q28_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
+        }
+      ]
+    },
+    "stimulus_29": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/Q29.gif",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "q29",
+          "type": "radio",
+          "required": true,
+          "prompt": "How do you interpret the relationship between the blue and the pink group over the iterations?",
+          "location": "sidebar",
+          "options": [
+            "They seem to be closer related compared to many other groups but still distinct",
+            "They are very closely related and not well separable",
+            "They are fairly distinct in most phases, similar to most other groups"
+          ]
+        },
+        {
+          "id": "q29_confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "I am confident in my answer",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 7
+        },
+        {
+          "id": "q29_easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "It was easy to identify the answer",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 7
         }
       ]
     },
@@ -303,17 +1273,38 @@
       "introduction",
       "demographics",
       "background",
-      "first-question-set",
       {
-        "order": "latinSquare",
-        "numSamples": 3,
+        "order": "random",
         "components": [
           "stimulus_1",
           "stimulus_2",
           "stimulus_3",
           "stimulus_4",
           "stimulus_5",
-          "stimulus_6"
+          "stimulus_6",
+          "stimulus_7",
+          "stimulus_8",
+          "stimulus_9",
+          "stimulus_10",
+          "stimulus_11",
+          "stimulus_12",
+          "stimulus_13",
+          "stimulus_14",
+          "stimulus_15",
+          "stimulus_16",
+          "stimulus_17",
+          "stimulus_18",
+          "stimulus_19",
+          "stimulus_20",
+          "stimulus_21",
+          "stimulus_22",
+          "stimulus_23",
+          "stimulus_24",
+          "stimulus_25",
+          "stimulus_26",
+          "stimulus_27",
+          "stimulus_28",
+          "stimulus_29"
         ]
       },
       "second-question-set"
