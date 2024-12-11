@@ -1,105 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v1.0.5/src/parser/GlobalConfigSchema.json",
   "configsList": [
-    "basic-questionnaire-study",
-    "trajectory-vis-study-test",
-    "tutorial-simple-study",
-    "tutorial-react-and-randomization",
-    "tutorial-advanced-react",
-    "demo-html",
-    "demo-cleveland",
-    "demo-brush-interactions",
-    "demo-html-input",
-    "demo-mvnv",
-    "demo-survey",
-    "demo-VLAT-full-randomized",
-    "demo-VLAT-mini-randomized",
-    "demo-html-trrack",
-    "demo-fairness-jnd",
-    "demo-click-accuracy-test",
-    "demo-image",
-    "test-randomization",
-    "test-skip-logic",
-    "test-parser-errors"
+    "trajectory-vis-study-test"
   ],
   "configs": {
-    "basic-questionnaire-study": {
-      "path": "basic-questionnaire-study/config.json"
-    },
     "trajectory-vis-study-test" : {
       "path": "trajectory-vis-study-test/config.json"
-    },
-    "tutorial-simple-study": {
-      "path": "tutorial/simple-study/config.json",
-      "test": true
-    },
-    "tutorial-react-and-randomization": {
-      "path": "tutorial/react-and-randomization/config.json",
-      "test": true
-    },
-    "tutorial-advanced-react": {
-      "path": "tutorial/advanced-react-component/config.json",
-      "test": true
-    },
-    "demo-html": {
-      "path": "demo-html/config.json",
-      "test": true
-    },
-    "demo-cleveland": {
-      "path": "demo-cleveland/config.json",
-      "test": true
-    },
-    "demo-brush-interactions": {
-      "path": "demo-brush-interactions/config.json",
-      "test": true
-    },
-    "demo-html-input": {
-      "path": "demo-html-input/config.json",
-      "test": true
-    },
-    "demo-mvnv": {
-      "path": "demo-mvnv/config.json",
-      "test": true
-    },
-    "demo-survey": {
-      "path": "demo-survey/config.json",
-      "test": true
-    },
-    "demo-VLAT-full-randomized": {
-      "path": "demo-VLAT-full-randomized/config.json",
-      "test": true
-    },
-    "demo-VLAT-mini-randomized": {
-      "path": "demo-VLAT-mini-randomized/config.json",
-      "test": true
-    },
-    "demo-html-trrack": {
-      "path": "demo-html-trrack/config.json",
-      "test": true
-    },
-    "demo-fairness-jnd": {
-      "path": "demo-fairness-jnd/config.json",
-      "test": true
-    },
-    "demo-click-accuracy-test": {
-      "path": "demo-click-accuracy-test/config.json",
-      "test": true
-    },
-    "demo-image": {
-      "path": "demo-image/config.json",
-      "test": true
-    },
-    "test-randomization": {
-      "path": "test-randomization/config.json",
-      "test": true
-    },
-    "test-skip-logic": {
-      "path": "test-skip-logic/config.json",
-      "test": true
-    },
-    "test-parser-errors": {
-      "path": "test-parser-errors/config.json",
-      "test": true
     }
   }
 }
