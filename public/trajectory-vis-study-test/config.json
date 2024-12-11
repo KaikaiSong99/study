@@ -26,6 +26,71 @@
       "path": "trajectory-vis-study-test/assets/introduction.md",
       "response": []
     },
+    "demographics": {
+      "type": "questionnaire",
+      "response": [
+        {
+          "id": "gender",
+          "type": "radio",
+          "required": true,
+          "prompt": "Gender",
+          "options": [
+            "Male",
+            "Female",
+            "Others",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "age",
+          "type": "radio",
+          "required": true,
+          "prompt": "Age",
+          "options": [
+            "25-",
+            "25-35",
+            "35-45",
+            "45-55",
+            "55-65",
+            "65+",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "experience_vis",
+          "type": "radio",
+          "required": true,
+          "prompt": "Experience with visualizations",
+          "options": [
+            "None",
+            "Heard of it",
+            "Somewhat",
+            "Used it a few times",
+            "Used it many times",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "experience_dim_reduction",
+          "type": "radio",
+          "required": true,
+          "prompt": "Experience with dimensionality reduction",
+          "options": [
+            "None",
+            "Heard of it",
+            "Somewhat",
+            "Used it a few times",
+            "Used it many times",
+            "Prefer not to say"
+          ]
+        }
+      ]
+    },
+    "background": {
+      "type": "markdown",
+      "path": "trajectory-vis-study-test/assets/background.md",
+      "response": []
+    },
     "first-question-set": {
       "type": "questionnaire",
       "response": [
@@ -236,6 +301,7 @@
     "order": "fixed",
     "components": [
       "introduction",
+      "demographics",
       "first-question-set",
       {
         "order": "latinSquare",
