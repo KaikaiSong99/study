@@ -302,6 +302,7 @@
     "components": [
       "introduction",
       "demographics",
+      "background",
       "first-question-set",
       {
         "order": "latinSquare",
