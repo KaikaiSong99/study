@@ -4,7 +4,7 @@
     "title": "t-SNE Trajectory Visualization Study (Test)",
     "version": "pilot",
     "authors": [
-      "Yingkai Song"
+      "Y. Song"
     ],
     "date": "2024-12-08",
     "description": "A questionnaire study with trajectory visualizations",
@@ -90,6 +90,34 @@
       "type": "markdown",
       "path": "trajectory-vis-study-test/assets/background.md",
       "response": []
+    },
+    "background_2": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/image1.png",
+      "nextButtonLocation": "sidebar",
+      "instruction": "Consider the following statement: The red cluster and the orange cluster are placed at the center of the embedding starting from an early phase.",
+      "response": [
+        {
+          "id": "confidence",
+          "type": "likert",
+          "required": true,
+          "prompt": "How confident are you on the statement being true?",
+          "location": "sidebar",
+          "leftLabel": "Not Confident",
+          "rightLabel": "Very Confident",
+          "numItems": 5
+        },
+        {
+          "id": "easiness",
+          "type": "likert",
+          "required": true,
+          "prompt": "How easy was it for you to answer this question?",
+          "location": "sidebar",
+          "leftLabel": "Very Difficult",
+          "rightLabel": "Very Easy",
+          "numItems": 5
+        }
+      ]
     },
     "first-question-set": {
       "type": "questionnaire",
