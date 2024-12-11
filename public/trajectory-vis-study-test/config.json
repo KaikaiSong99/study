@@ -334,6 +334,9 @@
     "stimulus_7": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q7.png",
+      "style": {
+        "maxWidth": "60%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -344,8 +347,8 @@
           "prompt": "Which one of the two matches your observation better?",
           "location": "sidebar",
           "options": [
-            "The blue group separates into 2 subgroups and and at least one of the subgroups shares trajectories with the red group",
-            "The blue group and the red group separate in the first half of the optimization and then move in separate ways while staying relatively close"
+            "The orange group separates into 2 subgroups and and at least one of the subgroups shares trajectories with the purple group",
+            "The orange group and the purple group separate in the first half of the optimization and then move in separate ways while staying relatively close"
           ]
         },
         {
