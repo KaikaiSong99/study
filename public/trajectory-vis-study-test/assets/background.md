@@ -10,14 +10,14 @@ runs through an iterative process through optimizing the low-dimensional embeddi
 Below is an example t-SNE _final_ embedding, which is commonly used in various visual analytics tasks 
 through inspecting the neighborhood relationships of points.
 
-![image](t-SNE_final_embedding_example.png)
+<img alt="image" height="500" src="t-SNE_final_embedding_example.png" width="500"/>
 
 Beyond analyzing the _final_ embedding, some tasks can be done by analyzing the intermediate states of the embedding, 
 i.e. the optimization process of t-SNE, or t-SNE _dynamics_. 
 Below is the typical workflow of analyzing the data dynamics over a t-SNE optimization: researchers either use animation 
-or take snapshots at certain moments for further analysis. 
+or take snapshots at certain moments for further analysis.
 
-![image](t-SNE-6stages.png)
+<img alt="image" height="200" src="t-SNE-6stages.png" width="1000"/>
 
 This requires going over the intermediate embeddings to check what the data in question is like at that point, 
 which is usually a cumbersome process. This inspired us to design 
