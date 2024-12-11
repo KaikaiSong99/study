@@ -94,6 +94,9 @@
     "stimulus_1": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q1.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -134,6 +137,9 @@
     "stimulus_2": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q2.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -174,6 +180,9 @@
     "stimulus_3": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/Q3.gif",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -214,6 +223,9 @@
     "stimulus_4": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q4.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -254,6 +266,9 @@
     "stimulus_5": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q5.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -294,6 +309,9 @@
     "stimulus_6": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/Q6.gif",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -335,7 +353,7 @@
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q7.png",
       "style": {
-        "maxWidth": "60%"
+        "maxWidth": "65%"
       },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
@@ -376,6 +394,9 @@
     "stimulus_8": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q8.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -415,6 +436,9 @@
     "stimulus_9": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/Q9.gif",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -454,6 +478,9 @@
     "stimulus_10": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q10.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -494,6 +521,9 @@
     "stimulus_11": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q11.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -534,6 +564,9 @@
     "stimulus_12": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q12.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -575,6 +608,9 @@
     "stimulus_13": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q13.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -616,6 +652,9 @@
     "stimulus_14": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/Q14.gif",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -657,6 +696,9 @@
     "stimulus_15": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q15.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -697,6 +739,9 @@
     "stimulus_16": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q16.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -737,6 +782,9 @@
     "stimulus_17": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/Q17.gif",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -777,6 +825,9 @@
     "stimulus_18": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q18.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -817,6 +868,9 @@
     "stimulus_19": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q19.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -857,6 +911,9 @@
     "stimulus_20": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q20.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -897,6 +954,9 @@
     "stimulus_21": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q21.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -937,6 +997,9 @@
     "stimulus_22": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q22.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -977,6 +1040,9 @@
     "stimulus_23": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q23.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -1017,6 +1083,9 @@
     "stimulus_24": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/Q24.gif",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -1057,6 +1126,9 @@
     "stimulus_25": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q25.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -1097,6 +1169,9 @@
     "stimulus_26": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q26.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -1137,6 +1212,9 @@
     "stimulus_27": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q27.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -1177,6 +1255,9 @@
     "stimulus_28": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q28.png",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -1217,6 +1298,9 @@
     "stimulus_29": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/Q29.gif",
+      "style": {
+        "maxWidth": "65%"
+      },
       "nextButtonLocation": "sidebar",
       "instruction": "Look at the visualization provided and answer the following question:",
       "response": [
@@ -1251,21 +1335,6 @@
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
           "numItems": 7
-        }
-      ]
-    },
-    "second-question-set": {
-      "type": "questionnaire",
-      "response": [
-        {
-          "id": "q3-satisfaction",
-          "prompt": "Rate your satisfaction with this survey from 1 (not enjoyable) to 5 (very enjoyable).",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "likert",
-          "leftLabel": "Not Enjoyable",
-          "rightLabel": "Very Enjoyable",
-          "numItems": 5
         }
       ]
     }
@@ -1309,8 +1378,7 @@
           "stimulus_28",
           "stimulus_29"
         ]
-      },
-      "second-question-set"
+      }
     ]
   }
 }
