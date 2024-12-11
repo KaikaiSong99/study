@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/v1.0.5/src/parser/StudyConfigSchema.json",
   "studyMetadata": {
-    "title": "t-SNE Trajectory Visualization Study (Test)",
+    "title": "t-SNE Trajectory Visualization Study",
     "version": "pilot",
     "authors": [
       "Y. Song"
     ],
-    "date": "2024-12-08",
+    "date": "2024-12-11",
     "description": "A questionnaire study with trajectory visualizations",
     "organizations": [
       "TU Delft"
