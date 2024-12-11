@@ -1308,7 +1308,7 @@
           "id": "q29",
           "type": "radio",
           "required": true,
-          "prompt": "How do you interpret the relationship between the blue and the pink group over the iterations?",
+          "prompt": "How do you interpret the relationship between the green and the purple group over the iterations?",
           "location": "sidebar",
           "options": [
             "They seem to be closer related compared to many other groups but still distinct",
