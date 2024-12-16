@@ -49,9 +49,11 @@ Note that we will not color the data in such a complex way in the questionnaire.
 ## Additional Info for Questions
 In the questions, we often ask you about the "split" behaviour of data, since data points can share trajectories during some iterations and start to separate during others.
 Such behaviour can happen early or late. Major differences between data usually make them split early while minor differences usually make them split late.
-Examples of splitting in the 2D view and the 1D view are given as follows:
+An example of splitting in the 2D view is given as follows:
 
 <img src="./assets/questions/split_2D.png" width="800" height="auto">
+
+An example of splitting in the 1D view is given as follows:
 
 <img src="./assets/questions/split_1D.png" width="800" height="auto">
 
