@@ -44,5 +44,7 @@ The visualization of traditional method looks something like this (speed turned 
 
 <img src="./assets/Example-Animation-ezgif.com-speed.gif" width="800" height="auto">
 
+For questions in the following questionnaire, data items that you should focus on are of randomized colors while the others will be colored in light gray. The order of questions are given randomly.  
+
 ## Start Answering Questions
 Click **Next** button when you are ready to start. 

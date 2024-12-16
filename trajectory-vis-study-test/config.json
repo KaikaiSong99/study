@@ -18,7 +18,8 @@
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
     "autoDownloadStudy": false,
-    "sidebar": true
+    "sidebar": true,
+    "sidebarWidth": 500
   },
   "components": {
     "introduction": {
@@ -109,7 +110,8 @@
           "options": [
             "Yellow",
             "Green",
-            "Blue"
+            "Blue",
+            "I cannot answer"
           ]
         },
         {
@@ -120,7 +122,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q1_easiness",
@@ -130,7 +132,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -152,7 +154,8 @@
           "options": [
             "Yellow",
             "Green",
-            "Blue"
+            "Blue",
+            "I cannot answer"
           ]
         },
         {
@@ -163,7 +166,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q2_easiness",
@@ -173,7 +176,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -195,7 +198,8 @@
           "options": [
             "Yellow",
             "Green",
-            "Blue"
+            "Blue",
+            "I cannot answer"
           ]
         },
         {
@@ -206,7 +210,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q3_easiness",
@@ -216,7 +220,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -238,7 +242,8 @@
           "options": [
             "They are all generally very similar and only split into smaller subgroups once the main blue group is settled",
             "They seem to be at least two major groups that split early in the optimization",
-            "They seem to be at least two major groups that only split late in the optimization"
+            "They seem to be at least two major groups that only split late in the optimization",
+            "I cannot answer"
           ]
         },
         {
@@ -249,7 +254,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q4_easiness",
@@ -259,7 +264,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -281,7 +286,8 @@
           "options": [
             "They are all generally very similar and only split into smaller subgroups once the main green group is settled",
             "They seem to be at least two major groups that split early in the optimization",
-            "They seem to be at least two major groups that only split late in the optimization"
+            "They seem to be at least two major groups that only split late in the optimization",
+            "I cannot answer"
           ]
         },
         {
@@ -292,7 +298,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q5_easiness",
@@ -302,7 +308,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -324,7 +330,8 @@
           "options": [
             "They are all generally very similar and only split into smaller subgroups once the main pink group is settled",
             "They seem to be at least two major groups that split early in the optimization",
-            "They seem to be at least two major groups that only split late in the optimization"
+            "They seem to be at least two major groups that only split late in the optimization",
+            "I cannot answer"
           ]
         },
         {
@@ -335,7 +342,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q5_easiness",
@@ -345,7 +352,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -366,7 +373,8 @@
           "location": "sidebar",
           "options": [
             "The orange group separates into 2 subgroups and and at least one of the subgroups shares trajectories with the purple group",
-            "The orange group and the purple group separate in the first half of the optimization and then move in separate ways while staying relatively close"
+            "The orange group and the purple group separate in the first half of the optimization and then move in separate ways while staying relatively close",
+            "I cannot answer"
           ]
         },
         {
@@ -377,7 +385,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q7_easiness",
@@ -387,7 +395,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -408,7 +416,8 @@
           "location": "sidebar",
           "options": [
             "The blue group separates into 2 subgroups and at least one of the subgroups shares trajectories with the orange group",
-            "The blue group and the orange group separate in the first half of the optimization and then move in separate ways while staying relatively close"
+            "The blue group and the orange group separate in the first half of the optimization and then move in separate ways while staying relatively close",
+            "I cannot answer"
           ]
         },
         {
@@ -419,7 +428,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q8_easiness",
@@ -429,7 +438,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -450,7 +459,8 @@
           "location": "sidebar",
           "options": [
             "The yellow group separates into 2 subgroups and at least one of the subgroups shares trajectories with the blue group",
-            "The yellow group and the blue group separate in the first half of the optimization and then move in separate ways while staying relatively close"
+            "The yellow group and the blue group separate in the first half of the optimization and then move in separate ways while staying relatively close",
+            "I cannot answer"
           ]
         },
         {
@@ -461,7 +471,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q9_easiness",
@@ -471,7 +481,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -493,7 +503,8 @@
           "options": [
             "Yes",
             "No, but I can identify three visible groups",
-            "At least one of the groups is difficult to identify"
+            "At least one of the groups is difficult to identify",
+            "I cannot answer"
           ]
         },
         {
@@ -504,7 +515,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q10_easiness",
@@ -514,7 +525,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -536,7 +547,8 @@
           "options": [
             "Yes",
             "No, but I can identify three visible groups",
-            "At least one of the groups is difficult to identify"
+            "At least one of the groups is difficult to identify",
+            "I cannot answer"
           ]
         },
         {
@@ -547,7 +559,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q11_easiness",
@@ -557,7 +569,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -580,7 +592,8 @@
             "They share trajectories before they split at the earlier phase and in the end, the majority of the orange group is more related to the blue group than the red group",
             "They share trajectories before they split at the later phase and in the end, the majority of the orange group is more related to the blue group than the red group",
             "They share trajectories before they split at the earlier phase and in the end, the majority of the orange group is more related to the red group than the blue group",
-            "They share trajectories before they split at the later phase and in the end, the majority of the orange group is more related to the red group than the blue group"
+            "They share trajectories before they split at the later phase and in the end, the majority of the orange group is more related to the red group than the blue group",
+            "I cannot answer"
           ]
         },
         {
@@ -591,7 +604,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q12_easiness",
@@ -601,7 +614,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -624,7 +637,8 @@
             "They share trajectories before they split at the earlier phase and in the end, the majority of the pink group is more related to the blue group than the orange group",
             "They share trajectories before they split at the later phase and in the end, the majority of the pink group is more related to the blue group than the orange group",
             "They share trajectories before they split at the earlier phase and in the end, the majority of the pink group is more related to the orange group than the blue group",
-            "They share trajectories before they split at the later phase and in the end, the majority of the pink group is more related to the orange group than the blue group"
+            "They share trajectories before they split at the later phase and in the end, the majority of the pink group is more related to the orange group than the blue group",
+            "I cannot answer"
           ]
         },
         {
@@ -635,7 +649,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q13_easiness",
@@ -645,7 +659,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -668,7 +682,8 @@
             "They share trajectories before they split at the earlier phase and in the end, the the majority of the orange group is closer to the blue group than the magenta group",
             "They share trajectories before they split at the later phase and in the end, the majority of the orange group is closer to the blue group than the magenta group",
             "They share trajectories before they split at the earlier phase and in the end, the majority of the orange group is closer to the magenta group than the blue group",
-            "They share trajectories before they split at the later phase and in the end, the majority of the orange group is closer to the magenta group than the blue group"
+            "They share trajectories before they split at the later phase and in the end, the majority of the orange group is closer to the magenta group than the blue group",
+            "I cannot answer"
           ]
         },
         {
@@ -679,7 +694,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q14_easiness",
@@ -689,7 +704,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -711,7 +726,8 @@
           "options": [
             "connects to blue through the yellow",
             "connects to blue directly",
-            "does not connect to blue at all"
+            "does not connect to blue at all",
+            "I cannot answer"
           ]
         },
         {
@@ -722,7 +738,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q15_easiness",
@@ -732,7 +748,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -754,7 +770,8 @@
           "options": [
             "connects to the orange through blue",
             "connects to the orange directly",
-            "does not connect to the orange at all"
+            "does not connect to the orange at all",
+            "I cannot answer"
           ]
         },
         {
@@ -765,7 +782,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q16_easiness",
@@ -775,7 +792,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -797,7 +814,8 @@
           "options": [
             "connects to yellow through red",
             "connects to yellow directly",
-            "does not connect to yellow at all"
+            "does not connect to yellow at all",
+            "I cannot answer"
           ]
         },
         {
@@ -808,7 +826,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q17_easiness",
@@ -818,7 +836,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -840,7 +858,8 @@
           "options": [
             "1",
             "2",
-            "3 or more"
+            "3 or more",
+            "I cannot answer"
           ]
         },
         {
@@ -851,7 +870,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q18_easiness",
@@ -861,7 +880,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -883,7 +902,8 @@
           "options": [
             "1",
             "2",
-            "3 or more"
+            "3 or more",
+            "I cannot answer"
           ]
         },
         {
@@ -894,7 +914,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q19_easiness",
@@ -904,7 +924,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -926,7 +946,8 @@
           "options": [
             "3 or less",
             "4",
-            "5 or more"
+            "5 or more",
+            "I cannot answer"
           ]
         },
         {
@@ -937,7 +958,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q20_easiness",
@@ -947,7 +968,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -969,7 +990,8 @@
           "options": [
             "3 or less",
             "4",
-            "5 or more"
+            "5 or more",
+            "I cannot answer"
           ]
         },
         {
@@ -980,7 +1002,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q21_easiness",
@@ -990,7 +1012,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -1012,7 +1034,8 @@
           "options": [
             "Orange",
             "Red",
-            "Blue"
+            "Blue",
+            "I cannot answer"
           ]
         },
         {
@@ -1023,7 +1046,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q22_easiness",
@@ -1033,7 +1056,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -1055,7 +1078,8 @@
           "options": [
             "Orange",
             "Red",
-            "Blue"
+            "Blue",
+            "I cannot answer"
           ]
         },
         {
@@ -1066,7 +1090,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q23_easiness",
@@ -1076,7 +1100,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -1098,7 +1122,8 @@
           "options": [
             "Orange",
             "Red",
-            "Blue"
+            "Blue",
+            "I cannot answer"
           ]
         },
         {
@@ -1109,7 +1134,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q24_easiness",
@@ -1119,7 +1144,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -1141,7 +1166,8 @@
           "options": [
             "There is one main subgroup over the iterations",
             "There are mainly two clear-defined subgroups",
-            "There are at least three clear-defined subgroups"
+            "There are at least three clear-defined subgroups",
+            "I cannot answer"
           ]
         },
         {
@@ -1152,7 +1178,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q25_easiness",
@@ -1162,7 +1188,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -1184,7 +1210,8 @@
           "options": [
             "There is one main subgroup over the iterations",
             "There are mainly two clear-defined subgroups",
-            "There are at least three clear-defined subgroups"
+            "There are at least three clear-defined subgroups",
+            "I cannot answer"
           ]
         },
         {
@@ -1195,7 +1222,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q26_easiness",
@@ -1205,7 +1232,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -1227,7 +1254,8 @@
           "options": [
             "They seem to be closer related compared to many other groups but still distinct",
             "They are very closely related and not well separable",
-            "They are fairly distinct in most phases, similar to most other groups"
+            "They are fairly distinct in most phases, similar to most other groups",
+            "I cannot answer"
           ]
         },
         {
@@ -1238,7 +1266,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q27_easiness",
@@ -1248,7 +1276,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -1270,7 +1298,8 @@
           "options": [
             "They seem to be closer related compared to many other groups but still distinct",
             "They are very closely related and not well separable",
-            "They are fairly distinct in most phases, similar to most other groups"
+            "They are fairly distinct in most phases, similar to most other groups",
+            "I cannot answer"
           ]
         },
         {
@@ -1281,7 +1310,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q28_easiness",
@@ -1291,7 +1320,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     },
@@ -1313,7 +1342,8 @@
           "options": [
             "They seem to be closer related compared to many other groups but still distinct",
             "They are very closely related and not well separable",
-            "They are fairly distinct in most phases, similar to most other groups"
+            "They are fairly distinct in most phases, similar to most other groups",
+            "I cannot answer"
           ]
         },
         {
@@ -1324,7 +1354,7 @@
           "location": "sidebar",
           "leftLabel": "Not Confident",
           "rightLabel": "Very Confident",
-          "numItems": 7
+          "numItems": 5
         },
         {
           "id": "q29_easiness",
@@ -1334,7 +1364,7 @@
           "location": "sidebar",
           "leftLabel": "Very Difficult",
           "rightLabel": "Very Easy",
-          "numItems": 7
+          "numItems": 5
         }
       ]
     }
