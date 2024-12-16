@@ -9,7 +9,7 @@ We recommend doing the test using Chrome.
 
 # Informed Consent:
 1. **Introduction**
-   You have been invited to take part in a user study for a master thesis project from Computer Graphics and Visualization (CGV) of TU Delft: Comparing visualizations on t-SNE optimization dynamics.
+   You have been invited to take part in a user study for a master thesis project from Computer Graphics and Visualization (CGV) research group of TU Delft: Comparing visualizations on t-SNE optimization dynamics.
    Participation in this research project is voluntary: the decision to take part is up to you. Before you decide to participate we would like to ask you to read the following information, so that you know what the research project is about, what we expect from you and how we deal with processing your personal data. Based on this information you can indicate via the consent declaration whether you consent to take part in this research project and the processing of your personal data.
    You may always contact the researcher via y.song-21@student.tudelft.nl, if you have any questions.
 
@@ -18,9 +18,9 @@ We recommend doing the test using Chrome.
 
 3. **What will taking part in the research project involve?**
    You will be taking part in a research project in which we will gather information by:
-   Asking you to fill in questions about different visualizations
-   Asking you to provide the amount of confidence in numerical form in answering each of the questions
-   Asking you to provide the amount of effort in numerical form in answering each of the questions
+   Asking you to fill in questions about different visualizations;
+   Asking you to provide the amount of confidence in numerical form in answering each of the questions;
+   Asking you to provide the amount of effort in numerical form in answering each of the questions.
    This study will be completely anonymous, and the data obtained from the study will not be traceable to you. For your participation in this research project you will not be compensated.
 
 4. **Potential risks and inconveniences**
