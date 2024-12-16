@@ -91,6 +91,7 @@
     "background": {
       "type": "markdown",
       "path": "trajectory-vis-study-test/assets/background.md",
+      "nextButtonText": "Start",
       "response": []
     },
     "stimulus_1": {

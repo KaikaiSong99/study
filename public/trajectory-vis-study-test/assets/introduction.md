@@ -29,7 +29,6 @@ We recommend doing the test using Chrome.
 
 5. **Confidentiality of data**
    The raw and processed research data will be retained for a period of 5 years. Ultimately after expiration of this time period the data will be either deleted or anonymized so that it can no longer be connected to an individual person. The research data will, if necessary (e.g. for a check on scientific integrity) and only in anonymous form be made available to persons outside the research group.
-   This research project was assessed and approved on 18-01-2024 by the ethical review committee of Eindhoven University of Technology.
 
 Consent form for participation by an adult
 By signing this consent form I acknowledge the following:
