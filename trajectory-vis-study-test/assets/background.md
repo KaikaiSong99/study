@@ -44,7 +44,21 @@ The visualization of traditional method looks something like this (speed turned 
 
 <img src="./assets/Example-Animation-ezgif.com-speed.gif" width="800" height="auto">
 
-For questions in the following questionnaire, data items that you should focus on are of randomized colors while the others will be colored in light gray. The order of questions are given randomly.  
+Note that we will not color the data in such a complex way in the questionnaire. Rather, data items that you should focus on are randomly colored while the others will be uniformly colored in light gray. The order of questions are given randomly too.  
+
+## Additional Info for Questions
+In the questions, we often ask you about the "split" behaviour of data, since data points can share trajectories during some iterations and start to separate during others.
+Such behaviour can happen early or late. Major differences between data usually make them split early while minor differences usually make them split late.
+Examples of splitting in the 2D view and the 1D view are given as follows:
+
+<img src="./assets/questions/split_2D_0.png" width="800" height="auto">
+
+<img src="./assets/questions/split_1D_0.png" width="800" height="auto">
+
+In some questions, we will mention "phases". Please consider phases as equal number of iterations. For instance, when we talk about 
+"the earlier phase" and "the later phase", the former represents the first half of all iterations and the latter represents the second half of all iterations.
+In the 1D view, you can tell exactly how early or late the iteration phase is, because iteration is encoded in the x-axis; 
+In the 2D view, however, you cannot tell directly which iteration phase a trajectory is at, given a certain position, because the data point moves at different rate every iteration.
 
 ## Start Answering Questions
-Click **Next** button when you are ready to start. 
+Click **Start** button when you are ready to start. 
