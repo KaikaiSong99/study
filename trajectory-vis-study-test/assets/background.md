@@ -17,7 +17,7 @@ i.e. the optimization process of t-SNE, or t-SNE _dynamics_.
 Below is the typical workflow of analyzing the data dynamics over a t-SNE optimization: researchers either use animation 
 or take snapshots at certain moments for further analysis.
 
-<img src="./assets/t-SNE-6stages.png" width="1000" height="auto">
+<img src="./assets/t-SNE-6stages.png" width="900" height="auto">
 
 This requires going over the intermediate embeddings to check what the data in question is like at that point, 
 which is usually a cumbersome process. This inspired us to design 
@@ -51,9 +51,9 @@ In the questions, we often ask you about the "split" behaviour of data, since da
 Such behaviour can happen early or late. Major differences between data usually make them split early while minor differences usually make them split late.
 Examples of splitting in the 2D view and the 1D view are given as follows:
 
-<img src="./assets/questions/split_2D_0.png" width="800" height="auto">
+<img src="./assets/questions/split_2D.png" width="800" height="auto">
 
-<img src="./assets/questions/split_1D_0.png" width="800" height="auto">
+<img src="./assets/questions/split_1D.png" width="800" height="auto">
 
 In some questions, we will mention "phases". Please consider phases as equal number of iterations. For instance, when we talk about 
 "the earlier phase" and "the later phase", the former represents the first half of all iterations and the latter represents the second half of all iterations.
