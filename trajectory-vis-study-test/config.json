@@ -19,12 +19,13 @@
     "withProgressBar": true,
     "autoDownloadStudy": false,
     "sidebar": true,
-    "sidebarWidth": 600
+    "sidebarWidth": 580
   },
   "components": {
     "introduction": {
       "type": "markdown",
       "path": "trajectory-vis-study-test/assets/introduction.md",
+      "nextButtonText": "Consent",
       "response": []
     },
     "demographics": {
