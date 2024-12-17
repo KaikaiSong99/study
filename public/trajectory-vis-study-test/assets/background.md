@@ -2,10 +2,11 @@
 
 ## t-SNE
 t-Distributed Stochastic Neighbor Embedding (t-SNE) is a dimensionality reduction technique
-commonly used to transform high-dimensional data into two or three dimensions, making it possible to 
-interpret the results using conventional visualization techniques like scatterplots. The idea is to preserve
-high-dimensional neighborhood of data with low-dimensional embedding. t-SNE algorithm
-runs through an iterative process through optimizing the low-dimensional embedding by gradient descent.
+commonly used to transform high-dimensional data into 2 dimensions and visualized in 2D scatterplots, 
+allowing users to analyze the relationship between data points. 
+The reason why t-SNE works is that points that are close to each other in high dimensions are also close in 2D after its processing.
+We call the 2D results a _embedding_.
+t-SNE runs iteratively during which the embedding is optimized.
 
 Below is an example t-SNE _final_ embedding, which is commonly used in various visual analytics tasks 
 through inspecting the neighborhood relationships of points.
@@ -14,20 +15,25 @@ through inspecting the neighborhood relationships of points.
 
 Beyond analyzing the _final_ embedding, some tasks can be done by analyzing the intermediate states of the embedding, 
 i.e. the optimization process of t-SNE, or t-SNE _dynamics_. 
-Below is the typical workflow of analyzing the data dynamics over a t-SNE optimization: researchers either use animation 
-or take snapshots at certain moments for further analysis.
+Below is the typical workflow of a [recent research](https://rupress.org/jem/article/215/5/1383/42593/Mass-cytometry-reveals-innate-lymphoid-cell) 
+which analyzed the data dynamics of t-SNE optimization: 
+the researchers used animations or snapshots during the optimization for further analysis to gain insights. 
+Snapshots look like this:
 
-<img src="./assets/t-SNE-6stages.png" width="900" height="auto">
+<img src="./assets/t-SNE-6stages.png" style="width: 90%; height: auto;">
 
-This requires going over the intermediate embeddings to check what the data in question is like at that point, 
+If we take many snapshots and make an animation, the optimization will look something like this:
+
+<img src="./assets/Example-Animation-ezgif.com-speed.gif" style="width: 60%; height: auto;">
+
+However, this requires going over the snapshots of embeddings to check what the data in question is like at that point, 
 which is usually a cumbersome process. This inspired us to design 
-visualizations that present t-SNE dynamics in only two views: a 2D t-SNE trajectory view and a 1D t-SNE trajectory view 
+visualizations that present t-SNE dynamics in one visualization with all the visual elements needed.
+
+only two views: a 2D t-SNE trajectory view and a 1D t-SNE trajectory view 
 enhanced by a bundling technique, among some other design choices.
 
 ## Our Research
-In this questionnaire, we will test the effectiveness of the above-mentioned two views on a number of tasks, 
-as well as the traditional method for comparison.
-
 In the 2D view, both the horizontal (X) and vertical (Y) axis are used 
 to represent embedding positions. Points usually originate from the center and expand outwards, 
 with the amount of movement between iterations being different. In our questions, the 2D view will look like this:
@@ -40,9 +46,8 @@ of the view as the T-SNE algorithm progresses. In our questions, the 1D view wil
 
 <img src="./assets/1D-Example.png" width="500" height="auto">
 
-The visualization of traditional method looks something like this (speed turned up to save time, same in the actual questions):
-
-<img src="./assets/Example-Animation-ezgif.com-speed.gif" width="800" height="auto">
+In this questionnaire, we will test the effectiveness of the above-mentioned two views on a number of tasks,
+as well as the t-SNE animations as the traditional method for comparison.
 
 Note that we will not color the data in such a complex way in the questionnaire. Rather, data items that you should focus on are randomly colored while the others will be uniformly colored in light gray. The order of questions are given randomly too.  
 
