@@ -11,7 +11,7 @@ t-SNE runs iteratively during which the embedding is optimized.
 Below is an example t-SNE _final_ embedding, which is commonly used in various visual analytics tasks 
 through inspecting the neighborhood relationships of points.
 
-<img src="./assets/t-SNE_final_embedding_example.png" width="500" height="auto">
+<img src="./assets/t-SNE_final_embedding_example.png" style="width: 40%; height: auto;">
 
 Beyond analyzing the _final_ embedding, some tasks can be done by analyzing the intermediate states of the embedding, 
 i.e. the optimization process of t-SNE, or t-SNE _dynamics_. 
@@ -24,43 +24,51 @@ Snapshots look like this:
 
 If we take many snapshots and make an animation, the optimization will look something like this:
 
-<img src="./assets/Example-Animation-ezgif.com-speed.gif" style="width: 60%; height: auto;">
+<img src="./assets/Example-Animation-ezgif.com-speed.gif" style="width: 40%; height: auto;">
 
 However, this requires going over the snapshots of embeddings to check what the data in question is like at that point, 
-which is usually a cumbersome process. This inspired us to design 
+which is usually a cumbersome process and poses high cognitive load to users. This inspired us to design 
 visualizations that present t-SNE dynamics in one visualization with all the visual elements needed.
 
 only two views: a 2D t-SNE trajectory view and a 1D t-SNE trajectory view 
 enhanced by a bundling technique, among some other design choices.
 
 ## Our Research
-In the 2D view, both the horizontal (X) and vertical (Y) axis are used 
-to represent embedding positions. Points usually originate from the center and expand outwards, 
-with the amount of movement between iterations being different. In our questions, the 2D view will look like this:
+An intuitive way to do this is to record positions of points at all iterations and connect them into trajectories in the visualization.
+We enhanced this idea by adding a modified bundling approach to reduce visual clutter while preserving key information in the visualization.
+We call this visualization the _2D view_.
+The 2D view looks like this:
 
-<img src="./assets/2D-Example.png" width="500" height="auto">
+<img src="./assets/2D-Example.png" style="width: 40%; height: auto;">
 
-Inm the 1D view, the horizontal (X) axis is encoded with the actual iterations, 
-so you can expect the step size at the X-axis to be the same. Points originate from the left and move towards the right 
-of the view as the T-SNE algorithm progresses. In our questions, the 1D view will look like this:
+In the 2D view, the two dimensions are used to represent 2D embedding positions. 
+Just as typical t-SNE, points usually originate from the center and expand outwards (see the blue trajectories for example),
+with the amount of movement between iterations being usually different.
 
-<img src="./assets/1D-Example.png" width="500" height="auto">
+The 2D view has its limitations: we cannot tell where the point is at a given iteration because iterations 
+are usually in number of hundreds and in each iteration the amount of movement is different. Therefore, tracking points are tricky.
+We introduce another visualization to tackle it, called the _1D view_. It frees up one dimension in the 2D to encode iteration,
+using only one dimension to represent t-SNE embeddings. We use 1D t-SNE here instead of 2D t-SNE: it is of lower resolution than the 2D t-SNE 
+but can still capture neighbourhood relations of points. The 1D view looks like this:
+
+<img src="./assets/1D-Example.png" style="width: 40%; height: auto;">
+
+In the 1D view, the horizontal (X) axis is encoded with the actual iterations,
+so you can expect the step size at the X-axis to be the same. Points originate from the left and move towards the right
+of the view (see the gray trajectories for example) as the T-SNE algorithm progresses.
 
 In this questionnaire, we will test the effectiveness of the above-mentioned two views on a number of tasks,
 as well as the t-SNE animations as the traditional method for comparison.
 
-Note that we will not color the data in such a complex way in the questionnaire. Rather, data items that you should focus on are randomly colored while the others will be uniformly colored in light gray. The order of questions are given randomly too.  
+Note that we will color the points in a simpler and cleaner way in the questionnaire. Data items that you should focus on are randomly colored by groups while the others will be uniformly colored in light gray. The order of questions are given randomly too.  
 
 ## Additional Info for Questions
 In the questions, we often ask you about the "split" behaviour of data, since data points can share trajectories during some iterations and start to separate during others.
 Such behaviour can happen early or late. Major differences between data usually make them split early while minor differences usually make them split late.
-An example of splitting in the 2D view is given as follows:
+Example of splitting in the 2D view and the 1D view are given as follows:
 
-<img src="./assets/questions/split_2D.png" width="800" height="auto">
-
-An example of splitting in the 1D view is given as follows:
-
-<img src="./assets/questions/split_1D.png" width="800" height="auto">
+<img src="./assets/questions/split_2D.png" style="width: 40%; height: auto;">
+<img src="./assets/questions/split_1D.png" style="width: 40%; height: auto;">
 
 In some questions, we will mention "phases". Please consider phases as equal number of iterations. For instance, when we talk about 
 "the earlier phase" and "the later phase", the former represents the first half of all iterations and the latter represents the second half of all iterations.
