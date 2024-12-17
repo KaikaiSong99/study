@@ -3,6 +3,7 @@
 Welcome to our visualization study. First of all, thank you for participating. 
 This is a questionnaire on our visualization research targeted on t-SNE optimization trajectories.
 We will ask you a set of questions based on given visualization(s) and then we will be done. The test will take about 20 minutes.
+You can participate in this study either with or without technical background.
 Please complete all questions without interruption. 
 Please use a mouse and do not complete it on a phone.
 We recommend doing the test using Chrome.
