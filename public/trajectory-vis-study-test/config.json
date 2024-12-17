@@ -94,6 +94,36 @@
       "nextButtonText": "Start",
       "response": []
     },
+    "example": {
+      "type": "image",
+      "path": "trajectory-vis-study-test/assets/questions/q23.png",
+      "style": {
+        "maxWidth": "65%"
+      },
+      "nextButtonLocation": "sidebar",
+      "instruction": "Look at the visualization provided and answer the following question:",
+      "response": [
+        {
+          "id": "example_question",
+          "type": "radio",
+          "required": true,
+          "prompt": "Which one of the following three classes splits first?",
+          "location": "sidebar",
+          "options": [
+            "Orange",
+            "Red",
+            "Blue",
+            "I cannot answer"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": "example_question",
+          "answer": "Red"
+        }
+      ]
+    },
     "stimulus_1": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q1.png",
@@ -1377,6 +1407,7 @@
       "introduction",
       "demographics",
       "background",
+      "example",
       {
         "order": "random",
         "components": [

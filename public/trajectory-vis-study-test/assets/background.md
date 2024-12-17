@@ -4,7 +4,8 @@
 t-Distributed Stochastic Neighbor Embedding (t-SNE) is a dimensionality reduction technique
 commonly used to transform high-dimensional data into 2 dimensions and visualized in 2D scatterplots, 
 allowing users to analyze the relationship between data points. 
-The reason why t-SNE works is that points that are close to each other in high dimensions are also close in 2D after its processing.
+The reason why t-SNE works is that points that are close to each other in high dimensions are also close in 2D after its processing,
+so users can analyze relationship between high dimensional data points by just looking at neighbouring points in 2D.
 We call the 2D results a _embedding_.
 t-SNE runs iteratively during which the embedding is optimized.
 
@@ -30,9 +31,6 @@ However, this requires going over the snapshots of embeddings to check what the 
 which is usually a cumbersome process and poses high cognitive load to users. This inspired us to design 
 visualizations that present t-SNE dynamics in one visualization with all the visual elements needed.
 
-only two views: a 2D t-SNE trajectory view and a 1D t-SNE trajectory view 
-enhanced by a bundling technique, among some other design choices.
-
 ## Our Research
 An intuitive way to do this is to record positions of points at all iterations and connect them into trajectories in the visualization.
 We enhanced this idea by adding a modified bundling approach to reduce visual clutter while preserving key information in the visualization.
@@ -48,7 +46,7 @@ with the amount of movement between iterations being usually different.
 The 2D view has its limitations: we cannot tell where the point is at a given iteration because iterations 
 are usually in number of hundreds and in each iteration the amount of movement is different. Therefore, tracking points are tricky.
 We introduce another visualization to tackle it, called the _1D view_. It frees up one dimension in the 2D to encode iteration,
-using only one dimension to represent t-SNE embeddings. We use 1D t-SNE here instead of 2D t-SNE: it is of lower resolution than the 2D t-SNE 
+using only one dimension to represent t-SNE embeddings. We use 1D t-SNE here, which only have 1 dimension to represent embeddings, instead of 2D t-SNE: it is of lower resolution than the 2D t-SNE 
 but can still capture neighbourhood relations of points. The 1D view looks like this:
 
 <img src="./assets/1D-Example.png" style="width: 40%; height: auto;">
@@ -68,12 +66,13 @@ Such behaviour can happen early or late. Major differences between data usually 
 Example of splitting in the 2D view and the 1D view are given as follows:
 
 <img src="./assets/questions/split_2D.png" style="width: 40%; height: auto;">
-<img src="./assets/questions/split_1D.png" style="width: 40%; height: auto;">
+<img src="./assets/questions/split_1D.png" style="width: 60%; height: auto;">
 
 In some questions, we will mention "phases". Please consider phases as equal number of iterations. For instance, when we talk about 
 "the earlier phase" and "the later phase", the former represents the first half of all iterations and the latter represents the second half of all iterations.
 In the 1D view, you can tell exactly how early or late the iteration phase is, because iteration is encoded in the x-axis; 
 In the 2D view, however, you cannot tell directly which iteration phase a trajectory is at, given a certain position, because the data point moves at different rate every iteration.
 
-## Start Answering Questions
+## Start Our Tutorial
+A tutorial is provided with an example question.
 Click **Start** button when you are ready to start. 
