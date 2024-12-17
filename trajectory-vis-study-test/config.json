@@ -1119,7 +1119,7 @@
           "id": "q27",
           "type": "radio",
           "required": true,
-          "prompt": "How do you interpret the relationship between the red and the yellow group over the iterations?",
+          "prompt": "How do you interpret the relationship between the red and the yellow groups over the iterations?",
           "location": "sidebar",
           "options": [
             "They seem to be closer related compared to many other groups but still distinct",

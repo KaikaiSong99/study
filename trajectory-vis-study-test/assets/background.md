@@ -67,7 +67,7 @@ In the following questionnaire, we often ask you about the "split" behaviour of 
 Such behaviour can happen early or late. Major differences between data usually make them split early while minor differences usually make them split late.
 Example of splitting in the 2D view and the 1D view are given as follows:
 
-<img src="./assets/questions/split_2D.png" style="width: 40%; height: auto;">
+<img src="./assets/questions/split_2D.png" style="width: 35%; height: auto;">
 <img src="./assets/questions/split_1D.png" style="width: 60%; height: auto;">
 
 In some questions, we will mention "phases". Please consider phases as equal number of iterations. For instance, when we talk about 
@@ -76,7 +76,7 @@ In the 1D view, you can tell exactly how early or late the iteration phase is, b
 In the 2D view, however, you cannot tell directly which iteration phase a trajectory is at, given a certain position, because the data point moves at different rate every iteration.
 
 ## Example Question
-<img src="./assets/questions/q23.png" style="width: 50%; height: auto;">
+<img src="./assets/questions/q23.png" style="width: 40%; height: auto;">
 
 Question: Which one of the following three classes splits first?
 
