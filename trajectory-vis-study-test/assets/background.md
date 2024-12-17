@@ -10,7 +10,8 @@ We call the 2D results a _embedding_.
 t-SNE runs iteratively during which the embedding is optimized.
 
 Below is an example t-SNE _final_ embedding, which is commonly used in various visual analytics tasks 
-through inspecting the neighborhood relationships of points.
+through inspecting the neighborhood relationships of points. As you can see, color encodings are often used along with the visualization. 
+These colors are based on either clustering results or manual labelling. 
 
 <img src="./assets/t-SNE_final_embedding_example.png" style="width: 40%; height: auto;">
 
@@ -55,13 +56,14 @@ In the 1D view, the horizontal (X) axis is encoded with the actual iterations,
 so you can expect the step size at the X-axis to be the same. Points originate from the left and move towards the right
 of the view (see the gray trajectories for example) as the T-SNE algorithm progresses.
 
-In this questionnaire, we will test the effectiveness of the above-mentioned two views on a number of tasks,
-as well as the t-SNE animations as the traditional method for comparison.
-
-Note that we will color the points in a simpler and cleaner way in the questionnaire. Data items that you should focus on are randomly colored by groups while the others will be uniformly colored in light gray. The order of questions are given randomly too.  
+In the following questionnaire, we will test the effectiveness of the above-mentioned two views on a number of tasks,
+as well as the t-SNE animations as the traditional method for comparison. 
+We will color the data in a simpler and cleaner way in the questionnaire. 
+Data items that you should focus on are randomly colored by groups while the others will be uniformly colored in light gray. 
+The order of questions are given randomly too.  
 
 ## Additional Info for Questions
-In the questions, we often ask you about the "split" behaviour of data, since data points can share trajectories during some iterations and start to separate during others.
+In the following questionnaire, we often ask you about the "split" behaviour of data, since data points can share trajectories during some iterations and start to separate during others.
 Such behaviour can happen early or late. Major differences between data usually make them split early while minor differences usually make them split late.
 Example of splitting in the 2D view and the 1D view are given as follows:
 
@@ -87,6 +89,7 @@ C. Blue
 D. I cannot answer
 
 The answer to this question is **B. Red**, as we can see the orange and the blue were relatively close to each other in the early phase
-while the red separates from them from almost the beginning.
+while the red separates from them from the beginning.
 
-## You Are Ready TO Start
+## You Are Ready To Start
+Click **Start** to begin answering questions!
