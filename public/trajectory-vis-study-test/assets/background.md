@@ -73,6 +73,20 @@ In some questions, we will mention "phases". Please consider phases as equal num
 In the 1D view, you can tell exactly how early or late the iteration phase is, because iteration is encoded in the x-axis; 
 In the 2D view, however, you cannot tell directly which iteration phase a trajectory is at, given a certain position, because the data point moves at different rate every iteration.
 
-## Start Our Tutorial
-A tutorial is provided with an example question.
-Click **Start** button when you are ready to start. 
+## Example Question
+<img src="./assets/questions/q23.png" style="width: 50%; height: auto;">
+
+Question: Which one of the following three classes splits first?
+
+A. Orange
+
+B. Red
+
+C. Blue
+
+D. I cannot answer
+
+The answer to this question is **B. Red**, as we can see the orange and the blue were relatively close to each other in the early phase
+while the red separates from them from almost the beginning.
+
+## You Are Ready TO Start

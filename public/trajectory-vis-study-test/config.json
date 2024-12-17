@@ -94,36 +94,6 @@
       "nextButtonText": "Start",
       "response": []
     },
-    "example": {
-      "type": "image",
-      "path": "trajectory-vis-study-test/assets/questions/q23.png",
-      "style": {
-        "maxWidth": "65%"
-      },
-      "nextButtonLocation": "sidebar",
-      "instruction": "Look at the visualization provided and answer the following question:",
-      "response": [
-        {
-          "id": "example_question",
-          "type": "radio",
-          "required": true,
-          "prompt": "Which one of the following three classes splits first?",
-          "location": "sidebar",
-          "options": [
-            "Orange",
-            "Red",
-            "Blue",
-            "I cannot answer"
-          ]
-        }
-      ],
-      "correctAnswer": [
-        {
-          "id": "example_question",
-          "answer": "Red"
-        }
-      ]
-    },
     "stimulus_1": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q1.png",
@@ -1048,138 +1018,6 @@
         }
       ]
     },
-    "stimulus_22": {
-      "type": "image",
-      "path": "trajectory-vis-study-test/assets/questions/q22.png",
-      "style": {
-        "maxWidth": "65%"
-      },
-      "nextButtonLocation": "sidebar",
-      "instruction": "Look at the visualization provided and answer the following question:",
-      "response": [
-        {
-          "id": "q22",
-          "type": "radio",
-          "required": true,
-          "prompt": "Which one of the following three classes splits first?",
-          "location": "sidebar",
-          "options": [
-            "Orange",
-            "Red",
-            "Blue",
-            "I cannot answer"
-          ]
-        },
-        {
-          "id": "q22_confidence",
-          "type": "likert",
-          "required": true,
-          "prompt": "How much confidence do you have in your answer?",
-          "location": "sidebar",
-          "leftLabel": "Low Confidence",
-          "rightLabel": "High Confidence",
-          "numItems": 5
-        },
-        {
-          "id": "q22_easiness",
-          "type": "likert",
-          "required": true,
-          "prompt": "How much effort was it to come to the answer?",
-          "location": "sidebar",
-          "leftLabel": "Little Effort",
-          "rightLabel": "Much Effort",
-          "numItems": 5
-        }
-      ]
-    },
-    "stimulus_23": {
-      "type": "image",
-      "path": "trajectory-vis-study-test/assets/questions/q23.png",
-      "style": {
-        "maxWidth": "65%"
-      },
-      "nextButtonLocation": "sidebar",
-      "instruction": "Look at the visualization provided and answer the following question:",
-      "response": [
-        {
-          "id": "q23",
-          "type": "radio",
-          "required": true,
-          "prompt": "Which one of the following three classes splits first?",
-          "location": "sidebar",
-          "options": [
-            "Orange",
-            "Red",
-            "Blue",
-            "I cannot answer"
-          ]
-        },
-        {
-          "id": "q23_confidence",
-          "type": "likert",
-          "required": true,
-          "prompt": "How much confidence do you have in your answer?",
-          "location": "sidebar",
-          "leftLabel": "Low Confidence",
-          "rightLabel": "High Confidence",
-          "numItems": 5
-        },
-        {
-          "id": "q23_easiness",
-          "type": "likert",
-          "required": true,
-          "prompt": "How much effort was it to come to the answer?",
-          "location": "sidebar",
-          "leftLabel": "Little Effort",
-          "rightLabel": "Much Effort",
-          "numItems": 5
-        }
-      ]
-    },
-    "stimulus_24": {
-      "type": "image",
-      "path": "trajectory-vis-study-test/assets/questions/Q24.gif",
-      "style": {
-        "maxWidth": "65%"
-      },
-      "nextButtonLocation": "sidebar",
-      "instruction": "Look at the visualization provided and answer the following question:",
-      "response": [
-        {
-          "id": "q24",
-          "type": "radio",
-          "required": true,
-          "prompt": "Which one of the following three classes splits first?",
-          "location": "sidebar",
-          "options": [
-            "Orange",
-            "Red",
-            "Blue",
-            "I cannot answer"
-          ]
-        },
-        {
-          "id": "q24_confidence",
-          "type": "likert",
-          "required": true,
-          "prompt": "How much confidence do you have in your answer?",
-          "location": "sidebar",
-          "leftLabel": "Low Confidence",
-          "rightLabel": "High Confidence",
-          "numItems": 5
-        },
-        {
-          "id": "q24_easiness",
-          "type": "likert",
-          "required": true,
-          "prompt": "How much effort was it to come to the answer?",
-          "location": "sidebar",
-          "leftLabel": "Little Effort",
-          "rightLabel": "Much Effort",
-          "numItems": 5
-        }
-      ]
-    },
     "stimulus_25": {
       "type": "image",
       "path": "trajectory-vis-study-test/assets/questions/q25.png",
@@ -1407,7 +1245,6 @@
       "introduction",
       "demographics",
       "background",
-      "example",
       {
         "order": "random",
         "components": [
@@ -1432,9 +1269,6 @@
           "stimulus_19",
           "stimulus_20",
           "stimulus_21",
-          "stimulus_22",
-          "stimulus_23",
-          "stimulus_24",
           "stimulus_25",
           "stimulus_26",
           "stimulus_27",
