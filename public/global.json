@@ -1,15 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v1.0.5/src/parser/GlobalConfigSchema.json",
   "configsList": [
-    "trajectory-vis-study-test",
-    "react-and-randomization"
+    "trajectory-vis-study-test"
   ],
   "configs": {
     "trajectory-vis-study-test" : {
       "path": "trajectory-vis-study-test/config.json"
-    },
-    "react-and-randomization" : {
-      "path": "tutorial/react-and-randomization/config.json"
     }
   }
 }
