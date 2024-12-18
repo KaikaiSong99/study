@@ -19,7 +19,7 @@
     "withProgressBar": true,
     "autoDownloadStudy": false,
     "sidebar": true,
-    "sidebarWidth": 580
+    "sidebarWidth": 650
   },
   "components": {
     "introduction": {
